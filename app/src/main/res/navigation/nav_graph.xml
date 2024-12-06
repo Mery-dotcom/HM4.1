@@ -8,7 +8,7 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.geeks.hm41.activity.fragments.HomeFragment"
+        android:name="com.geeks.hm41.fragments.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" >
         <action
@@ -18,7 +18,7 @@
 
     <fragment
         android:id="@+id/secondFragment"
-        android:name="com.geeks.hm41.activity.fragments.SecondFragment"
+        android:name="com.geeks.hm41.fragments.SecondFragment"
         android:label="fragment_second"
         tools:layout="@layout/fragment_second" >
         <argument
@@ -27,7 +27,7 @@
     </fragment>
     <fragment
         android:id="@+id/thirdFragment"
-        android:name="com.geeks.hm41.activity.fragments.ThirdFragment"
+        android:name="com.geeks.hm41.fragments.ThirdFragment"
         android:label="fragment_third"
         tools:layout="@layout/fragment_third"/>
 

@@ -6,17 +6,18 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.navArgs
-import com.geeks.hm41.databinding.FragmentHomeBinding
+import com.geeks.hm41.databinding.FragmentSecondBinding
+import com.geeks.hm41.fragments.SecondFragmentArgs
 
 class SecondFragment : Fragment() {
-    private lateinit var binding: FragmentHomeBinding
-    private val args by navArgs<SecondFragmentArgs>()
+    private lateinit var binding: FragmentSecondBinding
+    private val args : SecondFragmentArgs by navArgs()
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        binding = FragmentHomeBinding.inflate(inflater, container, false)
+        binding = FragmentSecondBinding.inflate(inflater, container, false)
         return binding.root
     }
 
@@ -25,8 +26,8 @@ class SecondFragment : Fragment() {
 
         val userSecondFragment = args.user
 
-        binding.etName.text = userSecondFragment.name
-        binding.etEmail.text = userSecondFragment.email
-        binding.etPassword.text = userSecondFragment.password
+        binding.tvName.text = userSecondFragment.name
+        binding.tvEmail.text = userSecondFragment.email
+        binding.tvPassword.text = userSecondFragment.password
     }
 }

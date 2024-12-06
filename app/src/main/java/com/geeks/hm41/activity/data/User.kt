@@ -1,4 +1,4 @@
-package com.geeks.hm41.activity.data
+package com.geeks.hm41.data
 
 import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize

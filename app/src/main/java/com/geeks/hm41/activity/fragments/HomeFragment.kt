@@ -5,9 +5,10 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.geeks.hm41.activity.data.User
+import com.geeks.hm41.data.User
 import androidx.navigation.fragment.findNavController
 import com.geeks.hm41.databinding.FragmentHomeBinding
+import com.geeks.hm41.fragments.HomeFragmentDirections
 
 class HomeFragment : Fragment() {
     private lateinit var binding: FragmentHomeBinding
